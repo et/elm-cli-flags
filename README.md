@@ -1,7 +1,9 @@
 # Usage
 
-`make run ARGS="--verbose --num-threads=3 -h`
+```
+$ make run ARGS="--verbose --num-threads=3 -h
 => ["Positional flag","Positional flag","Boolean flag","Argument flag","Short flag"]
+```
 
 This parses each command line word into their interpreted meaning as
 a CLI option.
